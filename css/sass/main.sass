@@ -50,13 +50,13 @@ svg
 	height: 64px
 	width: 64px
 	position: absolute
-	z-index: 1000
+	z-index: 100
 .toggle_mnu
 	width: 60px
 	height: 60px
 	float: right
 	position: relative
-	z-index: 100
+	z-index: 151
 	border: none
 
 /*sandwich*/
@@ -72,9 +72,9 @@ $h: 3px
 	left: 0
 	right: 0
 	margin: auto
-
-
-
+	z-index: 200
+	>span
+		display: block
 
 .sw-topper
 	position: relative
@@ -88,19 +88,17 @@ $h: 3px
 
 /* transition-delay: 0.2s, 0s; */
 
-
-
 .sw-bottom
 	position: relative
 	width: $w
 	height: $h
 	top: $h * 2.2
-
 	background: rgb(255, 255, 255)
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: transform 0.5s, top 0.2s
 	transition-delay: 0.2s, 0s
+
 
 .sw-footer
 	position: relative
@@ -113,6 +111,7 @@ $h: 3px
 	transition: all 0.5s
 	transition-delay: 0.1s
 
+
 .sandwich.active
 	.sw-topper
 		top: 10px
@@ -124,3 +123,27 @@ $h: 3px
 		opacity: 0
 		top: 0
 		transform: rotate(180deg)
+.top_mnu
+	position: fixed
+	width: 100%
+	height: 100%
+	background-color: rgba(0, 0, 0, .8)
+	z-index: 150
+	right: 0
+	top: 0
+	display: none
+	ul,
+	li
+		list-style-type: none
+		padding: 0
+		margin: 0
+	ul
+		margin-top: 120px
+		text-align: center
+		a
+			color: #fff
+			display: block
+			padding: 20px 0
+			text-transform: uppercase
+			font-size: 12px
+
