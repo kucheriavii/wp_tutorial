@@ -12,7 +12,24 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .resume_container .left,
+    .resume_container .left h3,
+    .resume_container .resume-icon{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .resume_container .left h3{
+        text-align: left;
+    }
+    .resume_container .right .resume-description strong{
+        float: none;
+        margin-right: auto;
+        margin-left: 15px;
+    }
+    .resume_container .resume-item:last-child{
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 0;
+    }
 }
 
 /* Extra Small Devices, Phones */

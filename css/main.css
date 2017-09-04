@@ -288,4 +288,43 @@ svg {
   font-size: 20px;
   padding: 0 3px; }
 
+.resume_container p {
+  margin-top: 10px; }
+.resume_container .left {
+  text-align: right;
+  border-right: #d2d2d2 1px solid; }
+  .resume_container .left .resume-description strong {
+    margin-left: 15px; }
+  .resume_container .left h3 {
+    text-align: right; }
+.resume_container .right {
+  text-align: left; }
+  .resume_container .right .resume-description strong {
+    margin-right: 15px;
+    float: left; }
+  .resume_container .right h3 {
+    text-align: left; }
+.resume_container h3 {
+  margin-top: 30px;
+  font-weight: bold; }
+.resume_container .resume_icon {
+  font-size: 40px;
+  margin-bottom: 35px; }
+.resume_container .resume-item {
+  margin-bottom: 54px;
+  font-style: italic; }
+  .resume_container .resume-item h3 {
+    letter-spacing: 1px; }
+  .resume_container .resume-item .year {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic; }
+  .resume_container .resume-item strong {
+    font-width: 600;
+    font-style: normal;
+    text-transform: uppercase; }
+
 /*# sourceMappingURL=main.css.map */

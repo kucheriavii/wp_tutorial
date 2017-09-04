@@ -64,4 +64,11 @@ section h3 {
 .s_about p:nth-child(2n) {
   color: #FF6347; }
 
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px;
+  font-size: 16px; }
+.resume_container .resume-item .year {
+  background: #FF6347; }
+
 /*# sourceMappingURL=tomato.css.map */

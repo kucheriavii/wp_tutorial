@@ -9,6 +9,9 @@ $(document).ready(function() {
     $(".animation-1").animated("flipInY", "flipOutY");
     $(".animation-2").animated("fadeInLeft", "fadeOutLeft");
     $(".animation-3").animated("fadeInRight", "fadeOutRight");
+
+    $(".left .resume-item").animated("fadeInLeft", "fadeOutLeft");
+    $(".right .resume-item").animated("fadeInRight", "fadeOutRight");
     //$(".top_text p").animated("fadeInUp", "fadeOutDon");
 
     function heightDetect(){
