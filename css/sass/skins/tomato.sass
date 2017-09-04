@@ -15,8 +15,11 @@ body
 a
 	color: $color
 
-p
+p, body .main_footer, .s_about li
 	color: $text_color
+
+.main_footer
+	+kerning(0)
 
 .color_element
 	color: $color
@@ -24,7 +27,15 @@ p
 	background-color: $color
 .color_border
 	border-color: $color
-
+.bg_light
+	background-color: $bg_light
+.bg_dark
+	background-color: $main_color
+	color: #fff
+	.s_descr:after
+		background-color: #fff
+	a
+		color: #fff
 .main_color_bg
 	background-color: $main_color
 path
@@ -34,7 +45,26 @@ path
 .top_mnu
 	a:hover
 		color: $color
-		background-color: rgba(255, 255, 255, 0.05)
+
 	a
 		+kerning(4)
 
+.top_text
+	p
+		color: $bg_light
+		+kerning(5)
+.personal_header
+	+kerning(1)
+.s_descr
+	+kerning(3)
+	&::after
+		background-color: $main_color
+
+section
+	h3
+		+kerning(3)
+		color: $text_color
+
+.s_about
+	p:nth-child(2n)
+		color: $color
