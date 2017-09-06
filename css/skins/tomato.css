@@ -78,4 +78,8 @@ section h3 {
   color: #fff;
   border-bottom: 1px solid #FF6347; }
 
+.portfolio_item .port_item_cont button {
+  border-color: #FF6347;
+  color: #FF6347; }
+
 /*# sourceMappingURL=tomato.css.map */
