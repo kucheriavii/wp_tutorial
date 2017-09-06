@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29cecfb8-0d9a-46fb-af48-eeb59db145d5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/main.sass" afterPath="$PROJECT_DIR$/css/sass/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/skins/tomato.sass" afterPath="$PROJECT_DIR$/css/sass/skins/tomato.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/tomato.css" afterPath="$PROJECT_DIR$/css/skins/tomato.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/tomato.css.map" afterPath="$PROJECT_DIR$/css/skins/tomato.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -314,7 +307,7 @@
       <workItem from="1503686774198" duration="2932000" />
       <workItem from="1504203465254" duration="10668000" />
       <workItem from="1504527413831" duration="9049000" />
-      <workItem from="1504722904322" duration="3598000" />
+      <workItem from="1504722904322" duration="3642000" />
     </task>
     <task id="LOCAL-00001" summary="Закінчив роботу з блоком _s_about">
       <created>1504528550342</created>
@@ -344,11 +337,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504725590534</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Створено елемент портфоліо">
+      <created>1504726549359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504726549359</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71351000" />
+    <option name="totallyTimeSpent" value="71395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +410,8 @@
     <MESSAGE value="Закінчив роботу з блоком _s_about" />
     <MESSAGE value="Закінчив роботу з блоком s_descr_wrapper" />
     <MESSAGE value="Додав mixItUp до портфоліо" />
-    <option name="LAST_COMMIT_MESSAGE" value="Додав mixItUp до портфоліо" />
+    <MESSAGE value="Створено елемент портфоліо" />
+    <option name="LAST_COMMIT_MESSAGE" value="Створено елемент портфоліо" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
