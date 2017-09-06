@@ -71,4 +71,11 @@ section h3 {
 .resume_container .resume-item .year {
   background: #FF6347; }
 
+.s_portfolio li {
+  letter-spacing: 2px;
+  color: #888; }
+.s_portfolio .active {
+  color: #fff;
+  border-bottom: 1px solid #FF6347; }
+
 /*# sourceMappingURL=tomato.css.map */

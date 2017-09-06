@@ -1,5 +1,10 @@
 $(document).ready(function() {
-
+    // mixitap
+    $("#portfolio_grid").mixItUp();
+    $(".s_portfolio li").click(function () {
+        $(".s_portfolio li").removeClass("active");
+        $(this).addClass("active");
+    });
 //popup
     $(".popup").magnificPopup({type:"image"});
 //animate effects
