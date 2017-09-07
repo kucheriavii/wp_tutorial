@@ -348,10 +348,36 @@ $h: 3px
 		background: rgba(0,0,0,0.8)
 		text-align: center
 		padding-top: 15%
-		h3
-			color: #fff
-			margin-bottom: 0
-		button
-			background: transparent
-			border: #fff 1px solid
-			padding: 2px 10px
+		opacity: 0
+		transition: all .5s
+	&:hover .port_item_cont
+		opacity: 1
+		padding-top: 20%
+	h3
+		color: #fff
+		margin-bottom: 0
+	a
+		background: transparent
+		border: #fff 1px solid
+		padding: 2px 10px
+		display: inline-block
+.port_descr
+	background: #fff
+	max-width: 500px
+	margin: auto
+	position: relative
+	p, h3
+		padding: 25px
+		padding-bottom: 0
+	h3
+		padding-top: 25px
+		margin-bottom: 0
+		text-align: center
+		text-transform: uppercase
+		font-weight: 400
+		margin-top: 20px
+	p
+		margin-top: 0
+	img
+		width: 100%
+		margin-top: 10px

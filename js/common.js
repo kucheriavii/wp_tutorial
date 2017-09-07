@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $(".portfolio_item").each(function (e) {
+        $(this).find(".popup_content").attr("href", "#work_"+e);
+        $(this).find('.port_descr').attr("id", "work_"+e);
+    });
     // mixitap
     $("#portfolio_grid").mixItUp();
     $(".s_portfolio li").click(function () {
@@ -7,6 +11,7 @@ $(document).ready(function() {
     });
 //popup
     $(".popup").magnificPopup({type:"image"});
+    $(".popup_content").magnificPopup({type:"inline", closeOnContentClick: true});
 //animate effects
     $(".top_text h1").animated("fadeInDown", "fadeOutUp");
     $(".top_text p, .section_header").animated("fadeInUp", "fadeOutDown");
