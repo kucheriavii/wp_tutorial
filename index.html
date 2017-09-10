@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="utf-8" />
 	<title>Заголовок</title>
@@ -63,10 +63,10 @@
 
 					<nav class="top_mnu">
 						<ul>
-							<li><a href="#">About me</a></li>
-							<li><a href="#">Resume</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Contacts</a></li>
+							<li><a href="#about">About me</a></li>
+							<li><a href="#resume">Resume</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#contacts">Contacts</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -223,7 +223,7 @@
 						</ul>
 					</div>
 					<div id="portfolio_grid">
-						<div class="mix col-md-3 portfolio_item category_1">
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
 							<img src="/img/portfolio-images/1.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Header of work</h3>
@@ -239,7 +239,7 @@
 							</div>
 						</div>
 
-						<div class="mix col-md-3 portfolio_item category_2">
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_2">
 							<img src="/img/portfolio-images/2.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Header of work</h3>
@@ -255,7 +255,7 @@
 							</div>
 						</div>
 
-						<div class="mix col-md-3 portfolio_item category_3">
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_3">
 							<img src="/img/portfolio-images/3.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Header of work</h3>
@@ -271,7 +271,7 @@
 							</div>
 						</div>
 
-						<div class="mix col-md-3 portfolio_item category_1">
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
 							<img src="/img/portfolio-images/4.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Header of work</h3>
@@ -287,7 +287,7 @@
 							</div>
 						</div>
 
-						<div class="mix col-md-3 portfolio_item category_1">
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
 							<img src="/img/portfolio-images/5.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Header of work</h3>
@@ -303,7 +303,7 @@
 							</div>
 						</div>
 
-						<div class="mix col-md-3 portfolio_item category_2">
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_2">
 							<img src="/img/portfolio-images/6.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Header of work</h3>
@@ -319,7 +319,7 @@
 							</div>
 						</div>
 
-						<div class="mix col-md-3 portfolio_item category_3">
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_3">
 							<img src="/img/portfolio-images/4.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Header of work</h3>
@@ -335,7 +335,7 @@
 							</div>
 						</div>
 
-						<div class="mix col-md-3 portfolio_item category_1">
+						<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category_1">
 							<img src="/img/portfolio-images/2.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Header of work</h3>
@@ -367,8 +367,59 @@
 		<div class="section_content">
 			<div class="container">
 				<div class="row">
+					<div class="col-md-6">
+						<div class="contact_box">
+							<div class=" contacts-icon icon-basic-geolocalize-05"></div>
+							<h3>Адрес:</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci fuga hic officiis quidem similique sit! Architecto dolorem earum excepturi magni natus quas ullam. Dolore enim ipsam reprehenderit rerum tempora velit.</p>
+						</div>
+						<div class="contact_box">
+							<div class="contacts-icon icon-basic-smartphone"></div>
+							<h3>Телефон:</h3>
+							<p>+7 999 999 99 99</p>
+						</div>
+						<div class="contact_box">
+							<div class=" contacts-icon icon-basic-webpage"></div>
+							<h3>Website:</h3>
+							<p><a href="//webhuinia.huinia" target="_blank"></a>Site</p>
+						</div>
+					</div>
 
+							<!--Form-->
+
+					<div class="col-md-6">
+						<div class="contact_box">
+							<form action="" class="main-form" novalidate>
+
+								<label class="control-group">
+									<span class="color_element">*</span> Your name:
+									<input type="text" minlength="5" name="some_field" placeholder="Your name" data-validation-required-message="Enter your name"/>
+									<span class="help-block text-danger"></span>
+								</label>
+
+								<label class="control-group">
+									<span class="color_element">*</span> Your E-mail:
+									<input type="email" name="email" placeholder="Your E-mail" data-validation-required-message="Не корректно введен E-mail" required />
+									<span class="help-block text-danger"></span>
+								</label>
+
+								<label class="control-group">
+									<span class="color_element">*</span> Comment:
+									<textarea minlength="5" name="some_field" placeholder="Comment" data-validation-required-message="Enter your comment" required/></textarea>
+									<span class="help-block text-danger"></span>
+								</label>
+
+
+
+								<button>Send</button>
+
+							</form>
+						</div>
+					</div>
 				</div>
+
+					<!--******************/FORM************************-->
+
 			</div>
 		</div>
 	</section>
@@ -377,6 +428,12 @@
 		<div class="container">
 			<div class="col-md-12">
 				&copy; 2017 Roman Kucheriavii Ostapchuk
+				<div class="social_wrap">
+					<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				</div>
 			</div>
 		</div>
 	</footer>
@@ -394,6 +451,7 @@
 	<script src="libs/mixitup/mixitup.min.js"></script>
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

@@ -82,4 +82,20 @@ section h3 {
   border-color: #FF6347;
   color: #FF6347; }
 
+.main_footer a {
+  color: #FF6347; }
+
+.contacts-icon {
+  color: #FF6347; }
+
+.contact_box form.main-form input:focus,
+.contact_box form.main-form textarea:focus {
+  border: 1px solid #FF6347;
+  outline: none; }
+.contact_box form.main-form button {
+  background-color: #FF6347;
+  outline: none; }
+.contact_box form.main-form .text-danger {
+  color: #FF6347; }
+
 /*# sourceMappingURL=tomato.css.map */

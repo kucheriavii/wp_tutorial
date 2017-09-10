@@ -9,6 +9,7 @@ $(document).ready(function() {
         $(".s_portfolio li").removeClass("active");
         $(this).addClass("active");
     });
+
 //popup
     $(".popup").magnificPopup({type:"image"});
     $(".popup_content").magnificPopup({type:"inline", closeOnContentClick: true});
@@ -17,22 +18,30 @@ $(document).ready(function() {
     $(".top_text p, .section_header").animated("fadeInUp", "fadeOutDown");
 
     $(".animation-1").animated("flipInY", "flipOutY");
-    $(".animation-2").animated("fadeInLeft", "fadeOutLeft");
-    $(".animation-3").animated("fadeInRight", "fadeOutRight");
+    $(".animation-2").animated("flipInY", "flipOutY");
+    $(".animation-3").animated("flipInY", "flipOutY");
 
-    $(".left .resume-item").animated("fadeInLeft", "fadeOutLeft");
-    $(".right .resume-item").animated("fadeInRight", "fadeOutRight");
+    $(".left .resume-item").animated("flipInY", "flipOutY");
+    $(".right .resume-item").animated("flipInY", "flipOutY");
     //$(".top_text p").animated("fadeInUp", "fadeOutDon");
+
+    /*****************************************************/
+    /*scroll to id*/
+    /*****************************************************/
+    $(".top_mnu ul a").mPageScroll2id();
+    /***************************************************/
 
     function heightDetect(){
         $('.main_head').css('height', $(window).height());
     }
+
 
     heightDetect();
 
     $(window).resize(function () {
         heightDetect();
     });
+    $("input, select, textarea").jqBootstrapValidation();
 });
 
 $(".toggle_mnu").click(function() {
